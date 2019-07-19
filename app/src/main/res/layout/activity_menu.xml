@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:background="@color/bgColor"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/bibo_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTopOfLogo"
+        />
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/chalkduster"
+        android:text="@string/qoute"
+        android:layout_below="@+id/logo"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/MenuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MenuText"
+        android:textSize="@dimen/menuSize"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/LogInTextColor"
+        android:layout_below="@id/quote"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/jenniferfont"/>
+
+    <RelativeLayout
+        android:id="@+id/rlForimportExport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/MenuText"
+        android:layout_marginTop="20dp">
+        <ImageButton
+            android:id="@+id/importImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/import_logo"
+            android:background="@color/bgColor"
+            />
+
+        <ImageButton
+            android:id="@+id/exportImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/export"
+            android:background="@color/bgColor"
+            android:layout_toEndOf="@+id/importImageBtn"
+            android:paddingLeft="40dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlForCheckDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/rlForimportExport"
+        android:layout_marginTop="20dp">
+        <ImageButton
+            android:id="@+id/checkImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/check"
+            android:background="@color/bgColor"
+            />
+
+        <ImageButton
+            android:id="@+id/deleteImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete"
+            android:background="@color/bgColor"
+            android:layout_toEndOf="@+id/checkImageBtn"
+            android:paddingLeft="40dp"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/LogOutButton"
+        android:layout_width="@dimen/LogOutButtonWidth"
+        android:layout_height="wrap_content"
+        android:text="@string/LogOutText"
+        android:layout_below="@id/rlForCheckDelete"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/TextLogOutButtonColor"
+        android:background="@drawable/round_box_no"
+        android:textSize="@dimen/LogOutTextSize"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+</RelativeLayout>

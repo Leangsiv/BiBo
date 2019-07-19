@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTopOfLogo">18dp</dimen>
+    <dimen name="titleSize">45sp</dimen>
+    <dimen name="marginTopOfTitle">15dp</dimen>
+    <dimen name="marginTopOfBox">13dp</dimen>
+    <dimen name="marginTopOfBtn">18dp</dimen>
+    <dimen name="widthBox">240dp</dimen>
+    <dimen name="heigthBox">40dp</dimen>
+    <dimen name="textSizeBtn">17sp</dimen>
+    <dimen name="paddingForAllBox">10dp</dimen>
+    <dimen name="menuSize">50sp</dimen>
+
+    <!--From Ngon-->
+    <dimen name="LogoSize">80dp</dimen>
+    <dimen name="LogInTextSize">50dp</dimen>
+    <dimen name="SignUpTextSize">50dp</dimen>
+    <dimen name="UsernameAndPasswordWidth">290dp</dimen>
+    <dimen name="UsernameAndPasswordHeight">60dp</dimen>
+    <dimen name="MarginTopOfPassword">15dp</dimen>
+    <dimen name="MarginButtomOfPassword">15dp</dimen>
+    <dimen name="MarginRightOfSignUpButton">30dp</dimen>
+    <dimen name="LogInButtonSize">18dp</dimen>
+    <dimen name="PaddingLeftOfUsername">10dp</dimen>
+    <dimen name="PaddingLeftOfPassword">10dp</dimen>
+    <dimen name="PaddingLeftAndRightOfLogInButton">50dp</dimen>
+    <dimen name="ForgotYourPasswordTextSize">15sp</dimen>
+    <dimen name="BoxInSignUpWidth">260dp</dimen>
+    <dimen name="BoxInSignUpHeight">40dp</dimen>
+    <dimen name="MarginTopOfBoxInSignUp">7dp</dimen>
+    <dimen name="LogOutButtonWidth">290dp</dimen>
+    <dimen name="LogOutTextSize">40sp</dimen>
+    <dimen name="MarginTopOfLogoInSplashScreen">120dp</dimen>
+    <dimen name="WelcometoBiBoTextSize">60sp</dimen>
+    <dimen name="WelcometoBiBoWidth">300dp</dimen>
+    <dimen name="ThankForOrderingTextSize">50sp</dimen>
+    <dimen name="ImportSuccessTextSize">60sp</dimen>
+    <dimen name="ExportSuccessTextSize">50sp</dimen>
+</resources>

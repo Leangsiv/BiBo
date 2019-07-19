@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">BiBo</string>
+    <string name="qoute">Just keep it well prepared!</string>
+    <!--Exporting-->
+    <string name="exporting">Export</string>
+    <string name="custName">Customer Name</string>
+    <string name="ph">Phone Number</string>
+    <string name="bIdAndName">Book ID</string>
+    <string name="qty">Quantity</string>
+    <string name="exportBtn">Export</string>
+
+    <!--Adding more-->
+    <string name="addMore">Do you want to\nadd more?</string>
+    <string name="yesBtn">YES</string>
+    <string name="noBtn">NO</string>
+    <!--ADDING-->
+    <string name="adding">Add</string>
+    <!--DELETE-->
+    <string name="delete">Delete</string>
+    <!--CHECK-->
+    <string name="check">Check</string>
+    <!--IMPORT-->
+    <string name="importing">Import</string>
+    <string name="publisherName">Publisher Name</string>
+    <string name="title">Title</string>
+    <string name="genre">Genre</string>
+    <string name="pYear">Publication Year</string>
+    <string name="price">Price</string>
+
+    <!--From Ngon-->
+    <string name="LoginText">Log In</string>
+    <string name="UsernameHint">Username</string>
+    <string name="PasswordHint">Password</string>
+    <string name="TextSignUpButton">Sign Up</string>
+    <string name="LogInButtonText">Log In</string>
+    <string name="ForgotYourpasswordText"><u>Forgot Your Password</u></string>
+    <string name="OrLoginWith">Or Login With</string>
+    <string name="OrSignUpWith">Or Sign Up With</string>
+    <string name="SignUpText">Sign Up</string>
+    <string name="FirstnameHint">First name</string>
+    <string name="LastnameHint">Last Name</string>
+    <string name="EmailHint">Email</string>
+    <string name="phoneNumberHint">Phone number</string>
+    <string name="MenuText">MENU</string>
+    <string name="LogOutText">LOG OUT</string>
+    <string name="WelcometoBiBo">Welcome To BIBO</string>
+    <string name="ThankforBuying">THANKS YOU FOR YOUR BUYING</string>
+    <string name="ImportSuccess">IMPORT SUCCESS</string>
+    <string name="ExportSuccess">EXPORT SUCCESS</string>
+
+    ////CODING
+    <string name="pref_file">com.example.preference_file</string>
+    <string name="pref_login_status">com.example.preference_login_status</string>
+    <string name="pref_username">com.example.preference_username</string>
+    <string name="pref_bid">com.example.preference_bid</string>
+    <string name="pref_title">com.example.preference_title</string>
+    <string name="pref_genre">com.example.preference_genre</string>
+    <string name="pref_pyear">com.example.preference_pyear</string>
+    <string name="pref_qty">com.example.preference_qty</string>
+    <string name="pref_price">com.example.preference_price</string>
+</resources>

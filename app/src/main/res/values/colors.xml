@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!--NEW COLOR-->
+    <color name="bgColor">#A2F3FE</color>
+    <color name="frameColor">#32FFFFFF</color>
+    <color name="titleColor">#1D338E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#4C95E9</color>
+    <color name="red">#FF0000</color>
+    <color name="colorRound">#ACAAAA</color>
+
+    <!--From nGOn-->
+    <color name="BackGround">#9FF4FF</color>
+    <color name="LogInTextColor">#1D338E</color>
+    <color name="EditText">#FFFFFF</color>
+    <color name="ColorOfFrame">#32FFFFFF</color>
+    <color name="LogInButtonColor">#4C95E9</color>
+    <color name="TextLoginButtonColor">#FFFFFF</color>
+    <color name="TextLogOutButtonColor">#FFFFFF</color>
+    <color name="LogOutButtonColor">#E20A0A</color>
+    <color name="WelcomeToBiBoColor">#D6FF76</color>
+    <color name="ThankFororderingcolor">#0077FF</color>
+    <color name="ImportSuccessColor">#0077FF</color>
+    <color name="ExportSuccessColor">#0077FF</color>
+</resources>
